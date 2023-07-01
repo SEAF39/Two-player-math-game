@@ -2,7 +2,7 @@
 # 2-Player Math Game
 The 2-Player Math Game is a command-line application built with Ruby where players take turns to answer simple math addition problems. It simulates a math game between two players, generating a new math question for each turn. The goal is to answer the questions correctly and avoid losing lives.
 
-Gameplay
+## Gameplay
 Each player starts with 3 lives.
 For each turn, a math question is generated with two random numbers between 1 and 20.
 The player whose turn it is will be prompted with the question and must provide the correct answer.
@@ -13,11 +13,11 @@ Once a player loses all their lives, the game announces the winner and the final
 How to Run
 Make sure you have Ruby installed on your system.
 
-Clone this repository or download the project files.
+--Clone this repository or download the project files.
 
-Open your terminal or command prompt and navigate to the project directory.
+--Open your terminal or command prompt and navigate to the project directory.
 
-Run the following command to start the game:
+## Run the following command to start the game:
 
 css
 Copy code
@@ -32,7 +32,7 @@ Continue playing until one player loses all their lives.
 
 The game will announce the winner and the final score.
 
-File Structure
+## File Structure
 The project files are organized as follows:
 
 main.rb: The main entry point of the game. Run this file to start the game.
